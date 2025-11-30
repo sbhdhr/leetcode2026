@@ -42,7 +42,7 @@
         -10^9 <= nums[i] <= 10^9
      */
 
-    public static class Question1
+    public static class Question001
     {
         // Helper methods
 
