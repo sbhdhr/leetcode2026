@@ -66,18 +66,19 @@ public static class Question001
     public static void Run()
     {
         // Create test cases
-        List<int> nums = [1, 2, 3, 1];
-
-
+        List<List<int>> testCases = [[1, 2, 3, 1], [1, 2, 3, 4]];
 
         // Execute the method
-        if (ContainsDuplicate(nums))
+        foreach (var testCase in testCases)
         {
-            Console.WriteLine("Contains duplicate");
-        }
-        else
-        {
-            Console.WriteLine("No duplicates");
+            if (ContainsDuplicate(testCase))
+            {
+                Console.WriteLine($"TestCase: [{string.Join(',', testCase)}] Ans: Contains duplicate");
+            }
+            else
+            {
+                Console.WriteLine($"TestCase: [{string.Join(',', testCase)}] Ans: No duplicates");
+            }
         }
     }
 }
