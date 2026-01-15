@@ -5,8 +5,6 @@
     Easy
     Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 
- 
-
     Example 1:
 
     Input: s = "anagram", t = "nagaram"
@@ -19,8 +17,6 @@
 
     Output: false
 
- 
-
     Constraints:
 
     1 <= s.length, t.length <= 5 * 10^4
@@ -31,18 +27,17 @@ public static class Question002
 {
     // Helper methods
 
-
     //Solution method
     public static bool IsAnagram(string s, string t)
     {
         int[] arr = [.. Enumerable.Repeat(0, 26)];
         foreach (var c in s)
         {
-            arr[c-'a']++;
+            arr[c - 'a']++;
         }
         foreach (var c in t)
         {
-            arr[c-'a']--;
+            arr[c - 'a']--;
         }
         foreach (var i in arr)
         {
@@ -78,4 +73,3 @@ public static class Question002
         }
     }
 }
-

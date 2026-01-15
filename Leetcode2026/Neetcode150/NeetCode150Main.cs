@@ -5,7 +5,7 @@ public class NeetCode150Main
     public static void Run()
     {
         //Question001.Run();
-        Question002.Run();
+        //Question002.Run();
         //Question003.Run();
         //Question004.Run();
         //Question005.Run();
@@ -147,7 +147,7 @@ public class NeetCode150Main
         //Question141.Run();
         //Question142.Run();
         //Question143.Run();
-        //Question144.Run();
+        Question144.Run();
         //Question145.Run();
         //Question146.Run();
         //Question147.Run();
