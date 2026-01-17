@@ -1,9 +1,11 @@
-﻿namespace Leetcode2026.Neetcode150;
+﻿using System.Numerics;
+
+namespace Leetcode2026.Neetcode150;
 
 /*
 191. Number of 1 Bits
 Easy
-Given a positive integer n, write a function that returns the number of set bits in its binary 
+Given a positive integer n, write a function that returns the number of set bits in its binary
 representation (also known as the Hamming weight).
 
 Example 1:
@@ -50,7 +52,15 @@ public static class Question145
     //Solution method
     public static int HammingWeight(int n)
     {
-        return 1;
+        //https://stackoverflow.com/questions/4678333/n-n-1-what-does-this-expression-do#:~:text=%3C%2D%2D%2D%2D%2D%20binary,power%20of%202%20or%200.
+        //return BitOperations.PopCount(n);
+        int count = 0;
+        while (n != 0)
+        {
+            n &= (n - 1);
+            count++;
+        }
+        return count;
     }
 
     public static void Run()
