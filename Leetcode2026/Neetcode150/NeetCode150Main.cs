@@ -150,9 +150,9 @@ public class NeetCode150Main
         //Question144.Run();
         //Question145.Run();
         //Question146.Run();
-        Question147.Run();
+        //Question147.Run();
         //Question148.Run();
         //Question149.Run();
-        //Question150.Run();
+        Question150.Run();
     }
 }
