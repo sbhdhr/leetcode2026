@@ -64,7 +64,7 @@ s does not contain leading or trailing spaces.©leetcode
 
 public class Question0002
 {
-    static int CountVowel(string s)
+    private static int CountVowel(string s)
     {
         HashSet<char> vowels = ['a', 'e', 'i', 'o', 'u'];
         int count = 0;
@@ -75,7 +75,8 @@ public class Question0002
         }
         return count;
     }
-    static string ReverseWords(string s)
+
+    private static string ReverseWords(string s)
     {
         var words = s.Split(' ');
         HashSet<int> seenVCount = [];
@@ -100,7 +101,7 @@ public class Question0002
             "cat and mice",
             "book is nice",
             "banana healthy"
-            
+
             ];
 
         // Execute the method
@@ -110,4 +111,3 @@ public class Question0002
         }
     }
 }
-

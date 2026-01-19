@@ -30,13 +30,13 @@ public static class Question149
     {
         // Convert to bits
         // Use Full Adder equations to generate the number
-        return a+b;
+        return a + b;
     }
 
     public static void Run()
     {
         // Create test cases
-        List<Tuple<int,int>> testCases =
+        List<Tuple<int, int>> testCases =
         [
             new(1,2),
             new(2,3)

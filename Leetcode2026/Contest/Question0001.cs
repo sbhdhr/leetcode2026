@@ -53,8 +53,6 @@ public class Question0001
         int minSum = pqMin.UnorderedItems.Sum(item => item.Element);
 
         return Math.Abs(maxSum - minSum);
-
-
     }
 
     public static void Run()
@@ -72,4 +70,3 @@ public class Question0001
         }
     }
 }
-

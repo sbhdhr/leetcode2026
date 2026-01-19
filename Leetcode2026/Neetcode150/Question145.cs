@@ -1,6 +1,4 @@
-﻿using System.Numerics;
-
-namespace Leetcode2026.Neetcode150;
+﻿namespace Leetcode2026.Neetcode150;
 
 /*
 191. Number of 1 Bits

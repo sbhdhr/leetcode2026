@@ -57,7 +57,7 @@ public static class Question148
     public static int MissingNumber(int[] nums)
     {
         int l = nums.Length;
-        int total = (l * (l + 1))/2;
+        int total = (l * (l + 1)) / 2;
         foreach (int i in nums)
         {
             total -= i;
@@ -78,7 +78,7 @@ public static class Question148
         // Execute the method
         foreach (var testCase in testCases)
         {
-            Console.WriteLine($"TestCase: [{string.Join(",",testCase)}] Ans: [{MissingNumber(testCase)}]");
+            Console.WriteLine($"TestCase: [{string.Join(",", testCase)}] Ans: [{MissingNumber(testCase)}]");
         }
     }
 }

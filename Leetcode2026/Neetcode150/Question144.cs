@@ -43,7 +43,7 @@ public static class Question144
         int n = nums[0];
         for (int i = 1; i < nums.Length; i++)
         {
-            n^=nums[i];
+            n ^= nums[i];
         }
         return n;
     }
