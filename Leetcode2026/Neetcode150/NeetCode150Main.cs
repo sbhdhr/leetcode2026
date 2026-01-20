@@ -143,8 +143,8 @@ public class NeetCode150Main
         //Question137.Run();
         //Question138.Run();
         //Question139.Run();
-        Question140.Run();
-        //Question141.Run();
+        //Question140.Run();
+        Question141.Run();
         //Question142.Run();
         //Question143.Run();
         //Question144.Run();
